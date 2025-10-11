@@ -32,18 +32,40 @@
 
 // console.log(boliean)
 
-let number = 384;
-let strnum = String(number);
-console.log(strnum);
-console.log(typeof strnum);
+// let number = 384;
+// let strnum = String(number);
+// console.log(strnum);
+// console.log(typeof strnum);
 
-let num = 2983;
-let negative = -num;
-console.log(negative);
+// let num = 2983;
+// let negative = -num;
+// console.log(negative);
 
-let name1 = "Syed Saad ";
-let name2 = "Raza";
+// let name1 = "Syed Saad ";
+// let name2 = "Raza  ";
+// let name3 = "Furqan Shafaq ";
 
-let final = name1 + name2;
+// let final = name1 + name2 + name3;
 
-console.log(final);
+// console.log(final);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2**2);
+// console.log(2%2);
+// console.log(2/2);
+
+// console.log("4" + 6);
+// console.log(10 + "6");
+// console.log(10 + 10 + "6");
+// console.log("10" + 10 + 27);
+
+// console.log((3 + 34)+ 56 * 34 / 56 % 34);
+
+console.log(true);
+console.log(+true);
+console.log(+"");
+
+let num1,num2,num3
+
+num1 = num2 = num3 = 2+2
