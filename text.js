@@ -62,10 +62,36 @@
 
 // console.log((3 + 34)+ 56 * 34 / 56 % 34);
 
-console.log(true);
-console.log(+true);
-console.log(+"");
+// console.log(true);
+// console.log(+true);
+// console.log(+"");
 
-let num1,num2,num3
+// let num1,num2,num3
 
-num1 = num2 = num3 = 2+2
+// num1 = num2 = num3 = 2+2;
+
+// let final = num1 + num2 * num3;
+
+// console.log(final);
+
+// console.log(2 > 1);
+// console.log(2 >= 1);
+// console.log(2 < 1);
+// console.log("9" === "9");
+// console.log(2 != 1);
+
+console.log("5" > 3);
+console.log("05" > 3);
+
+// Primitive Data Types
+
+// This is Seven Types
+
+// 1: String ( " " )
+// 2: Number (Simplle num )
+// 3: Boolean ( true / false )
+// 4: null (empty)
+// 5: undefind (declare ha but define nhi ha )
+// 6: symbol (kesi bhi value Ko Uniqe Bana ta ha )
+// 7: BigInt (ya Koi Syntefic Value Ya Bari Values Ka Liya Use Hota Ha)
+
