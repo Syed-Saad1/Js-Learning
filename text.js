@@ -80,8 +80,8 @@
 // console.log("9" === "9");
 // console.log(2 != 1);
 
-console.log("5" > 3);
-console.log("05" > 3);
+// console.log("5" > 3);
+// console.log("05" > 3);
 
 // Primitive Data Types
 
@@ -95,3 +95,102 @@ console.log("05" > 3);
 // 6: symbol (kesi bhi value Ko Uniqe Bana ta ha )
 // 7: BigInt (ya Koi Syntefic Value Ya Bari Values Ka Liya Use Hota Ha)
 
+// (Non-Primitive) Data Types
+
+// This is Three Types
+
+// 1: Array
+// 2: Object
+// 3: Functions
+
+// let score = 1234;
+// let temperature = null;
+// let userEmail;
+// let id = Symbol('123');
+// console.log(id);
+
+// let bignum = 7584795549995543;
+// console.log(bignum);
+
+// let orgname = "Saad Raza";
+// let savename = orgname;
+// savename = "SFA Institute";
+// console.log(orgname);
+// console.log(savename);
+
+// let User1 = {
+//     Name: "Syed Sarim",
+//     Email: "sarim2@gmail.com",
+//     Id: 13322,
+// };
+
+// let User2 = User1;
+
+// User2.Name = "Syed Saad Raza";
+// User2.Email = "syedsaadfurqan10@gmail.com"
+
+// console.log(User1.Name);
+// console.log(User2.Name);
+
+
+// [Primative] Data type: Jitna Ha Ya Sara (Stack Memory) Ma Jata ha or ya Jaise Ap Koi Update karta ha to woh is  ki Copy  Data Ha....
+// [Non-Primative] Data type: Jitna Ha Ya Sara (Heap Memory) Ma Jata ha or yaaise Ap Koi Update karta ha to woh original ka Refrences  Data Ha....
+
+// let name = "Saad Raza "
+// let Repo = 22;
+// console.log(`Hello I am ${name} and My Github Repo is ${Repo} Thanks `);
+
+
+// const name = new String(`Saad-Raza-Syed-Furqan`)
+// console.log(name[3])
+// console.log(name.__proto__);
+// console.log(name.length);
+// console.log(name.toUpperCase());
+// console.log(name.charAt(10));
+// console.log(name.indexOf(`F`));
+
+
+// const newstr = name.substring(1, 13)
+// console.log(newstr);
+
+// const extre = "  SAAD   ";
+// console.log(extre);
+// console.log(extre.trim());
+
+// const url = "https://syedsaad1.com/saad%20raza";
+// console.log(url);
+
+// console.log(url.replace(`%20` , `_`));
+
+// console.log(name.split(`-`));
+
+// const score = 235;
+// console.log(score);
+
+// const balance = new Number(3284);
+// console.log(balance);
+// console.log(balance.toString().length);
+// console.log(balance.toFixed(5));
+
+// const othernumber = 8.99;
+// console.log(othernumber.toPrecision(1));
+
+// const num = 1247346;
+// console.log(num.toLocaleString(`en-PK`));
+// console.log(num.toLocaleString(`en-PK`));
+
+// console.log(Math);
+// console.log(Math.abs(-4));
+// console.log(Math.round(4.55));// Ya Hamesha (.) Ka Bad Wali valure .5 sa Plus Hogi to Ya Jaise 4.6 ha to ya 5 da ga Agar is sa nicha hogi to 4 da ga..
+// console.log(Math.ceil(4.1)); // ya hamesh Apna Sa top wali value laga Jaise (4.1) to ya (5) da ga..
+// console.log(Math.floor(4.9)); // ya hamesh Apna Sa down wali value laga Jaise (4.9) to ya (4) da ga..
+
+
+// console.log(Math.random());
+// console.log(Math.random()*10);
+// console.log(Math.floor(Math.random()*10) +1);
+
+const min = 100;
+const max = 200;
+
+console.log(Math.floor(Math.random() * (min - max + 1) ) + min);
