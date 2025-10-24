@@ -190,7 +190,34 @@
 // console.log(Math.random()*10);
 // console.log(Math.floor(Math.random()*10) +1);
 
-const min = 100;
-const max = 200;
+// const min = 100;
+// const max = 200;
 
-console.log(Math.floor(Math.random() * (min - max + 1) ) + min);
+// console.log(Math.floor(Math.random() * (min - min + 1) ) + max);
+
+// let date = new Date();
+// console.log(date);
+// console.log(date.toString());
+// console.log(date.toDateString());
+// console.log(date.toISOString());
+// console.log(date.toLocaleString());
+// console.log(date.toJSON());
+// console.log(typeof date);
+
+
+let Customdate = new Date(2026, 3 , 28)
+// console.log(Customdate.toDateString());
+
+// let Customdate = new Date (2020, 3 , 23 , 1 ,34)
+// console.log(Customdate.toDateString());
+
+// let Customdate = new Date ("2022-3-23")
+// console.log(Customdate.toLocaleString());
+
+let Date1 = Date.now();
+console.log(Date1);
+console.log(Customdate.getTime());
+console.log(Date.now()/1000);
+console.log(Math.floor(Date.now()/1000));
+
+
