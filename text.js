@@ -205,7 +205,7 @@
 // console.log(typeof date);
 
 
-let Customdate = new Date(2026, 3 , 28)
+// let Customdate = new Date(2026, 3 , 28)
 // console.log(Customdate.toDateString());
 
 // let Customdate = new Date (2020, 3 , 23 , 1 ,34)
@@ -214,10 +214,25 @@ let Customdate = new Date(2026, 3 , 28)
 // let Customdate = new Date ("2022-3-23")
 // console.log(Customdate.toLocaleString());
 
-let Date1 = Date.now();
-console.log(Date1);
-console.log(Customdate.getTime());
-console.log(Date.now()/1000);
-console.log(Math.floor(Date.now()/1000));
+// let Date1 = Date.now();
+// console.log(Date1);
+// console.log(Customdate.getTime());
+// console.llog(newdate.getHours());
+// console.log(newdate.getMonth() + 1);
+// consog(Date.now()/1000);
+// console.log(Math.floor(Date.now()/1000));
 
+// let newdate = new Date()
+// console.log(newdate);
+// console.ole.log(newdate.getMinutes());
+// console.log(newdate.getDay());
 
+// newdate.toLocaleString('default' , {
+//     weekday: "narrow"
+// })
+
+// let firstname = "SAAD RAZA"
+// let lastname = "FURQAN "
+// let FnalName = (`My First Name is ${firstname} and My Full Name is ${firstname + lastname} `)
+
+// console.log(FnalName.toLowerCase())
